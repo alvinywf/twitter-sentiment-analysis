@@ -13,7 +13,7 @@ Hence, it is imperative for companies to accurately identify the public sentimen
 
 ## Executive Summary
 
-From the results above, we arrive at the following key points regarding the sentiment analysis model:
+From the results, we arrive at the following key points regarding the sentiment analysis model:
 
 - We can develop a decent sentiment analysis model using either **TF-IDF** or **word embeddings** as features.
 - The average **accuracy** of the top two models (logistic regression and LSTM network) is **77%** on the test set, which means that out of every four tweets, our models are able to accurately predict the sentiments of three of them.
@@ -26,5 +26,3 @@ The performance of the models can potentially be improved via the following meth
 - **Word embedding**: Try out other word embeddings such as Word2vec or other versions of GloVe.
 - **Hyperparameter tuning**: Conduct hyperparameter tuning for logistic regression, support vector classifier, Naive Bayes classifier and LSTM network.
 - **Model architecture**: Experiment with different model architectures for LSTM network.
-
-With a sentiment analysis model, companies will be able to accurately identify the public sentiment towards their brands in real time. This will then allow them to come up with timely strategic changes and key improvements to their products or services which will help in maximising customer satisfaction.
